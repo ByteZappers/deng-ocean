@@ -1,7 +1,7 @@
 {
   "name": "deng-ocean",
   "version": "1.0.0",
-  "main": "index.html",
+  "main": "http://localhost:82/dengOcean/index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

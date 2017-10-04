@@ -523,6 +523,16 @@ main{
 				bottom: 0px;
 			}
 		}
+		.panel-group {
+			ul{
+		    	list-style: none;
+		    	li{
+		    		span{
+		    			color: $sky;
+		    		}
+		    	}
+			}
+		}
 		.collepesCutomeStyle{
 			border-radius:0px;
 			.panel-heading{
@@ -742,6 +752,7 @@ section.aboutContent{
 		text-transform: uppercase;
 		@extend .btxtcolor1;
 	}
+
 	.abtImg{
 		@extend .fr;
 		margin:0px 0px 65px 65px;
@@ -757,8 +768,77 @@ section.aboutContent{
 	        z-index: -99;
 		}
 	}
+	ul{
+		padding-left:20px;
+		li{
+			color:$grey;
+			margin-bottom:10px;
+			span{
+				font-weight:bold;
+			}
+		}
+	}
 	p{
 		@extend .btxtcolor1;
+	}
+	.div-50-no-pa{
+		width:48%;
+		float:left;
+		&:nth-child(3){
+			padding-left:2%;
+		}
+	}
+	.panel-group {
+		ul{
+	    	list-style: none;
+	    	li{
+	    		span{
+	    			color: $sky;
+	    		}
+	    	}
+		}
+	}
+	.collepesCutomeStyle{
+		border-radius:0px;
+		.panel-heading{
+			background-color:$white;
+			border-radius:0px;	
+			@extend .pos-relat;
+			a.collapsed{
+					@extend .btxtcolor1;
+			}
+			a{
+				color:$white;
+			}
+			h4.panel-title{
+				&:after{
+					content: url('../images/accordinClose.png');
+					@extend .pos-abso;
+					right: 15px;
+					top: 8px;
+				}
+			}
+			.panelImg:after{
+				content: url('../images/accordinOpen.png') !important;
+			}
+		}
+		.collapseOpenBgColor{
+			@extend .bgcolor1;
+		}
+		.panel-body{
+			@extend .openSans;
+			line-height:24px;
+			@extend .pos-relat;
+			padding-bottom:65px;
+			a{
+				padding:7px 13px;
+				@extend .bgcolor1;
+				color:$white;
+				@extend .pos-abso;
+				left:0px;
+				bottom:0px;
+			}
+		}
 	}
 }
 section.abtTeam{

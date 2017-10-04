@@ -71,9 +71,9 @@
 			<p>© 2017 All Rights Reserved</p>
 			<ul>
 				<li><a href="">Home</a></li>
-				<li><a href="">About Us</a></li>
-				<li><a href="">Products</a></li>
-				<li><a href="">Our Team</a></li>
+				<li><a href="">Who we are</a></li>
+				<li><a href="">What we do</a></li>
+				<li><a href="">How we do it</a></li>
 				<li><a href="">Contact Us</a></li>
 				<li><a href="">Jobs</a></li>
 			</ul>

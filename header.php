@@ -9,8 +9,7 @@
 			<div class="top-left">
 				<div class="selectLang">
 					<p>Select Language |</p>
-					<a href=""><img src="images/chinaFlag.png" alt=""></a>
-					<a href=""><img src="images/ptaNiFlag.png" alt=""></a>
+					<a href=""><img src="images/ausFlag.png" alt=""></a>
 					<a href=""><img src="images/chinaFlag.png" alt=""></a>
 				</div>
 			</div>
@@ -27,9 +26,10 @@
 			<span><i class="fa fa-bars" aria-hidden="true"></i></span>
 			<ul>
 				<li><a href="index.php">Home</a></li>
-				<li><a href="about.php">About Us</a></li>
+				<li><a href="about.php">Who we are</a></li>
+				<li><a href="about.php">What we do</a></li>
+				<li><a href="about.php">How we do it</a></li>
 				<li><a href="products.php">Products</a></li>
-				<li><a href="about.php#about">Our Team</a></li>
 				<li><a href="contact.php">Contact  Us</a></li>
 				<li><a href="jobs.php">Jobs</a></li>
 			</ul>
